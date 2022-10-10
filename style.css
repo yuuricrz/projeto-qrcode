@@ -15,11 +15,18 @@
 --cor3: hsl(220, 15%, 55%);
 --cor4: hsl(218, 44%, 22%);
 }
-body{
+
+body {
     background-color: var(--cor2);
-}
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
 .prin{
-    margin: 250px auto;
     background-color: white;
     background-repeat: no-repeat;
     width: 400px;
